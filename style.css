@@ -4,10 +4,21 @@ body {
 	  /*background:url(https://cdn2.vox-cdn.com/thumbor/A4_UzDb1DZLVDqcUyT6xiI5f7uw=/cdn0.vox-cdn.com/uploads/chorus_asset/file/3624242/Screen-shot-2015-04-17-at-11.45.00-PM.0.png);*/
 }
 
+.jumbotron {
+	background: url(http://i.ytimg.com/vi/Cp906Bnnr6o/maxresdefault.jpg);
+	color: #F9F7F8 !important;
+}
+
+.jumbotron p {
+	text-align: center;
+}
+
+
+
 h1 {
     font-size: 2.0em;
     /*background-color: #010DF8;*/
-    background:url(http://cc-resort.com/wp-content/uploads/2013/01/grey_background.jpg);
+    /*background:url(http://cc-resort.com/wp-content/uploads/2013/01/grey_background.jpg);*/
  
     margin: 40px;
     margin-top: 40px;
