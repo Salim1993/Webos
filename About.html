@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="crap" content>
+        <meta name="Salim"content>
+        <title>LA Clips</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!-- This is a comment, by the way -->
+    
+        <!-- Bootstrap -->
+        <link href="\\filesrv\users\Student\benkhale\Webos\bootstrap-3.3.5-dist\css\bootstrap.min.css" rel="stylesheet">
+        <link href="\\filesrv\users\Student\benkhale\Webos\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="I:\Webos\bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
+<!--         <link href="carousel.css" rel="stylesheet"> -->
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="file://filesrv/users/Student/benkhale/Webos/404.html">Clippers Bullshit</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="file://filesrv/users/Student/benkhale/Webos/404.html">Home</a></li>
+                        <li class="active"><a href="file://filesrv/users/Student/benkhale/Webos/About.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="container">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="http://blogstorage.s3.amazonaws.com/upload/SportsBlogcom/2426693/0040162001431819872_filepicker.jpg" alt="Chris Paul">
+                    </div>
+
+                    <div class="item">
+                        <img src="http://img.bleacherreport.net/img/images/photos/002/741/185/4104de15f1d8bbd99ec86abd28714a01_crop_north.?w=594&h=396&q=75" alt="J.J. Reddick">
+                    </div>
+
+                    <div class="item">
+                        <img src="http://cdn.slamonline.com/wp-content/uploads/2015/05/paul-pierce.jpg" alt="Paul Pierce">
+                    </div>
+
+                    <div class="item">
+                        <img src="http://images.sportsworldreport.com/data/images/full/18385/blake-griffin.jpg" alt="Blake Griffin">
+                    </div>
+
+                    <div class="item">
+                        <img src="http://prosportsextra.com/wp-content/uploads/2015/07/deandre-jordan-ftr-21515_19z5dnd0fk3ta1rhqs4us022us.jpg" alt="DeAndre Jordan">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+            </div>
+        </div>
+
+        <script language="JavaScript" type="text/javascript">
+            $(document).ready(function(){
+                // Activate Carousel
+                $("#myCarousel").carousel();
+                
+                // Enable Carousel Indicators
+                $(".item1").click(function(){
+                    $("#myCarousel").carousel(0);
+                });
+                $(".item2").click(function(){
+                    $("#myCarousel").carousel(1);
+                });
+                $(".item3").click(function(){
+                    $("#myCarousel").carousel(2);
+                });
+                $(".item4").click(function(){
+                    $("#myCarousel").carousel(3);
+                });
+                
+                // Enable Carousel Controls
+                $(".left").click(function(){
+                    $("#myCarousel").carousel("prev");
+                });
+                $(".right").click(function(){
+                    $("#myCarousel").carousel("next");
+                });
+            });
+        </script>
+    </body>
+</html>

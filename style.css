@@ -43,3 +43,16 @@ h1 {
 */
     background-image: url(blaker.png);
 }
+
+.carousel-inner {
+	width:500px;
+	height:350px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 70%;
+    margin: auto;
+}
+
